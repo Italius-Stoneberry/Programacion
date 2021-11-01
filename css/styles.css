@@ -31,7 +31,7 @@ html{
 }
 @font-face{
     font-family:'Sab';
-    src: url(/css/TheSaBkCp.ttf);
+    src: url(/css/DINBlack.ttf);
 }
 #logo{
     margin-top:10px;
@@ -209,7 +209,7 @@ text-align: center;
         font-family:'ver';
 
 }
-.overlay h2{
+.overlay a{
     margin: auto;
     padding-top: 30%;
     width:80%;

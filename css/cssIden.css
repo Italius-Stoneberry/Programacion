@@ -10,7 +10,7 @@ html{margin:0;
 }
 @font-face{
     font-family:'Sab';
-    src: url(/css/TheSaBkCp.ttf);}
+    src: url(/css/DINBlack.ttf);}
 main{
     box-sizing: content-box;
     background-image:url(/css/fondogran.jpg);
