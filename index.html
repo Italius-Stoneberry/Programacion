@@ -107,19 +107,20 @@
                 <hr>
                 </div>
                 <div id="nomb">
-                    <p>Nombre</p>
+                    <label for="Nombre">Nombre</label>
                     <input class="controles" type="text" name="Nombres" placeholder="Ingrese su Nombre">
                 </div>
                 <div id="email">
-                    <p>Email</p>
+                    <label for="Email">Email</label>
                     <input class="controles" type="text" name="Email"  placeholder="Ingrese su Email">
                 </div>
                 <div id="mens">
-                    <p>Mensaje</p>
+                    <label for="Mensaje">Mensaje</label>
                     <textarea name="Mensaje" class="controles" id="taberga" cols="30" rows="10">Inserte su consulta aqui</textarea>
                 </div>
                 <div id="btn-env">
-                    <input class="boton-env" type="submit" value="Enviar Mensaje">
+                    <input class="boton-env" type="submit" onclick= 'return enviarFormulario()' value="Enviar Mensaje">
+                    <p id="error"></p>
                 </div>
 
             </div>
@@ -165,5 +166,8 @@
         <a id="fac" href="https://www.google.com"><img src="/css/whats.png" alt="GraficarteMdz en Whatsapp"></a> <!-- no busque para meter el numero por que lo pasaron a qr.. y eran las 3 fue dps lo cambio-->
         <a id="what" href="https://www.facebook.com/people/GraficArte-Mdz/100009917714571/"><img src="/css/fac.png" alt=""></a>
         </footer>   
-</body>
+
+<script src="formulario.js"></script>
+    </body>
+
 </html>

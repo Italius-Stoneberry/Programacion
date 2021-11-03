@@ -355,7 +355,7 @@ justify-content: center;
     text-align: center; 
 }
 
-#cont-form p{
+#cont-form label {
     padding: 5px;
     font-family: 'Ver';
     font-size: 1em;

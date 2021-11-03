@@ -1,9 +1,22 @@
-const formulario =document.getElementById('formulario')
-const expresiones = {
-	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-//esto lo voy a copiar todo aunque use solamente use el email
 
-
+var nombre = document.getElementById('Nombres');
+var email = document.getElementById('Email');
+var mens = document.getElementById('Mensaje');
+var error = document.getElementById('error');
+error.style.color ="red"
+function enviarformulario(){
+	console.log('Enviar formulario...');
+	
+	var mensajeError = [];
+	
+	if(nombre.value === null || nombre.value === ''){
+		mensajeError.push('Ingrese Su Nombre');
+	}
+	if(email.value  === null || email.value === ''){
+		mensajeError.push('Ingrese su Email');
+	}
+	error.innerHTML = mensajeError.join(', ');
+	return false;
+}
 
 //in progress
